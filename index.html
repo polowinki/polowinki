@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Połowinki Studentów GUMed 2026 — 17 października, Twoja Stocznia w Gdańsku. Wieczór, który zapamiętasz na resztę studiów.">
+    <meta property="og:title" content="Połowinki GUMed 2026">
+    <meta property="og:description" content="17.10.2026 · Twoja Stocznia · Gdańsk">
+    <title>Połowinki GUMed 2026 — Twoja Stocznia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Grain overlay -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Ambient glow -->
+    <div class="ambient" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <!-- Nav -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">
+                <span class="brand-mark">P/26</span>
+                <span class="brand-text">Połowinki GUMed</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#wydarzenie">Wydarzenie</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#regulamin">Regulamin</a></li>
+                <li><a href="#zapisy" class="nav-cta">Zapisz się</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="top" class="hero">
+        <div class="hero-frame">
+
+            <div class="hero-meta hero-meta-tl reveal">
+                <span class="line"></span>
+                <span>54°21′57″N · 18°39′07″E</span>
+            </div>
+            <div class="hero-meta hero-meta-tr reveal">
+                <span>Hala / Twoja Stocznia</span>
+                <span class="line"></span>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow reveal">Gdański Uniwersytet Medyczny · Edycja 2026</p>
+
+                <h1 class="hero-title">
+                    <span class="reveal">Poło<em>winki</em></span>
+                    <span class="hero-year reveal">'26</span>
+                </h1>
+
+                <p class="hero-tagline reveal">
+                    Pół drogi za nami. Wieczór, który warto zapamiętać —<br>
+                    w hali, która sama jest legendą.
+                </p>
+
+                <!-- COUNTDOWN -->
+                <div class="countdown reveal" aria-label="Odliczanie do wydarzenia">
+                    <div class="countdown-label">
+                        <span class="line short"></span>
+                        <span>Do startu</span>
+                        <span class="line short"></span>
+                    </div>
+                    <div class="countdown-grid">
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-days">000</span>
+                            <span class="cd-key">dni</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-hours">00</span>
+                            <span class="cd-key">godz</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-minutes">00</span>
+                            <span class="cd-key">min</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-seconds">00</span>
+                            <span class="cd-key">sek</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-cta reveal">
+                    <a href="#zapisy" class="btn btn-primary">
+                        <span>Rezerwuję miejsce</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#wydarzenie" class="btn btn-ghost">
+                        <span>Co, gdzie, kiedy</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-meta hero-meta-bl reveal">
+                <span class="line"></span>
+                <span>17 · 10 · 2026</span>
+            </div>
+            <div class="hero-meta hero-meta-br reveal">
+                <span>Sobota</span>
+                <span class="line"></span>
+            </div>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true">
+            <span>przewiń</span>
+            <span class="scroll-line"></span>
+        </div>
+    </header>
+
+    <!-- WYDARZENIE / DETAILS -->
+    <section id="wydarzenie" class="section section-details">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Wydarzenie<em>.</em></h2>
+                <p class="section-lede">
+                    Połowinki to noc, w której zamykamy pierwszą połowę studiów. Bez fartuchów, bez konspektów —
+                    z barem, parkietem i ekipą, z którą przeżywaliśmy każdy egzamin.
+                </p>
+            </div>
+
+            <div class="details-grid">
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="5" width="18" height="16" rx="1"/>
+                                <path d="M3 9h18M8 3v4M16 3v4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Data</span>
+                    </div>
+                    <h3 class="detail-value">17 października 2026</h3>
+                    <p class="detail-meta">Sobota</p>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 21s-7-7.5-7-12a7 7 0 0114 0c0 4.5-7 12-7 12z"/>
+                                <circle cx="12" cy="9" r="2.5"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Miejsce</span>
+                    </div>
+                    <h3 class="detail-value">Twoja Stocznia</h3>
+                    <p class="detail-meta">ul. Elektryków 4 · 80-863 Gdańsk</p>
+                    <a href="https://maps.google.com/?q=Twoja+Stocznia+Elektryk%C3%B3w+4+Gda%C5%84sk" target="_blank" rel="noopener" class="detail-link">
+                        Otwórz w mapach →
+                    </a>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M5 11V7a7 7 0 0114 0v4"/>
+                                <path d="M3 11h18l-1.5 9.5a1 1 0 01-1 .85h-13a1 1 0 01-1-.85L3 11z"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Formuła</span>
+                    </div>
+                    <h3 class="detail-value">Open bar · DJ · Foto</h3>
+                    <p class="detail-meta">Catering, drink station, fotograf, niespodzianki</p>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 11V3a3 3 0 00-6 0v8c0 1.66 1.34 3 3 3h0c1.66 0 3-1.34 3-3z"/>
+                                <path d="M6 14v7"/>
+                                <path d="M19 3v11c0 1.66-1.34 3-3 3h-1v4"/>
+                                <path d="M15 3h4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Catering</span>
+                    </div>
+                    <h3 class="detail-value">Dania i przekąski</h3>
+                    <p class="detail-meta">Ciepłe posiłki, zimna płyta oraz opcje wege.</p>
+                    <a href="https://docs.google.com/document/d/1LWWIO0peQZLAxdT-zgbUD914sLw5LqYyNw_L5iSybtc/edit?usp=sharing" target="_blank" class="detail-link">
+                        Zobacz menu →
+                    </a>
+                </article>
+
+                <article class="detail-card detail-card-wide">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">O obiekcie</span>
+                    </div>
+                    <h3 class="detail-value">Postindustrialna hala<br>w sercu dawnej Stoczni Gdańskiej.</h3>
+                    <p class="detail-meta">
+                        Surowe ściany, stalowe konstrukcje i historia, która doda wieczorowi charakteru.
+                        Lokalizacja słynie z ikonicznej akustyki i atmosfery, jakiej nie znajdziecie w żadnym sztywnym salonie hotelowym.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-faq">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-num">02</span>
+                <h2 class="section-title">FA<em>Q</em></h2>
+                <p class="section-lede">Krótkie odpowiedzi na pytania, które dostajemy najczęściej. Reszta — w regulaminie.</p>
+            </div>
+
+            <div class="faq-list">
+                
+                <!-- Zaktualizowane pytania o wydarzenie i logistykę -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Gdzie i kiedy odbywają się Połowinki? Czy miejsce lub termin mogą ulec zmianie?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Widzimy się w sobotę 17 października w obiekcie Twoja Stocznia przy ul. Elektryków 4 w Gdańsku. Zmiana terminu lub miejsca nie wchodzi w grę – data i lokalizacja są już ostatecznie przypieczętowane.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Do kiedy trzeba wypełnić deklarację i co muszę w niej podać?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Formularz deklaracji należy wypełnić do 13 maja (środa). Zależy nam, abyś na tym etapie podjął ostateczną decyzję co do tego, czy bierzesz w wydarzeniu udział z osobą towarzyszącą, czy decydujesz się na bilet pojedynczy.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Kiedy muszę podać ostateczne dane osoby towarzyszącej?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Imię i nazwisko Twojej osoby towarzyszącej będziemy zbierać bliżej wydarzenia – możesz spodziewać się formularza w tej sprawie na przełomie lipca i sierpnia.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Ile wynoszą opłaty i jak wygląda harmonogram wpłat?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Całkowity koszt uczestnictwa wyniesie około 600 zł (zakładamy wahania rzędu +/- 25 zł, w zależności od ostatecznych wycen ubezpieczenia i dekoracji). Aby ułatwić Wam płatność, koszty rozbijemy na 3 transze o podobnej wysokości (do ok. 200 zł). Pierwsza wpłata mija 15 maja, a druga do końca czerwca.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Co stanie się z resztkami po rozliczeniu i drobnymi nadwyżkami?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Ze względów logistycznych i ze względu na bardzo niską wartość jednostkową (szacunkowo około 1,50 – 2,00 zł na osobę w przeliczeniu), niewykorzystane końcówki z budżetu imprezy nie będą zwracane. Zamiast tego cała zebrana w ten sposób pula zostanie przekazana w imieniu studentów na wsparcie wybranych organizacji charytatywnych.</p>
+                    </div>
+                </details>
+
+                <!-- Pozostałe, istniejące pytania wpisujące się w wytyczne -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Kto może wziąć udział w Połowinkach?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Wydarzenie jest skierowane przede wszystkim do studentów GUMed znajdujących się w połowie studiów. Każdy student może zaprosić jedną osobę towarzyszącą — także spoza uczelni — i ponosi za nią pełną odpowiedzialność.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Co dostaję w cenie biletu?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Wstęp na wydarzenie, open bar, catering, oprawę muzyczną (DJ), profesjonalną fotorelację, ubezpieczenie oraz dekoracje. Szczegółowy zakres pojawi się w mailu po zapisach.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Jaki jest dress code?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p> Elegancki - koszula lub marynarka mile widziana. Pamiętajcie jednak, że obiekt jest postindustrialny, są progi i nierówności — szpilki na własne ryzyko, sneakersy też dadzą radę, jeśli stylowe.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Czy mogę wnieść własny alkohol?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Absolutnie nie. Cały alkohol serwowany jest na miejscu w ramach open baru przez profesjonalną obsługę obiektu. Wnoszenie własnego alkoholu, jakichkolwiek szklanych butelek oraz środków odurzających jest surowo zabronione.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Czy będzie szatnia?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Tak — szatnia jest prowadzona przez Operatora Obiektu lub firmę zewnętrzną i może być płatna. Organizator nie odpowiada za rzeczy wartościowe pozostawione w szatni, lożach ani na stołach.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Jak dojechać i wrócić?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Twoja Stocznia leży 10 min spacerem od stacji SKM Gdańsk Stocznia. Polecamy komunikację publiczną do północy oraz aplikacje typu Uber/Bolt po imprezie. Parking w okolicy jest ograniczony — nie planujcie wracać autem.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Czy zdjęcia trafią do internetu?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>Tak — wejście na halę oznacza zgodę na utrwalanie wizerunku przez oficjalnych fotografów i publikację w social media. Jeśli nie chcesz, by konkretne zdjęcie z Twoim wyraźnym wizerunkiem zostało opublikowane — zgłoś to fotografowi lub Organizatorowi w trakcie wydarzenia.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>
+                        <span class="faq-q">Co jeśli impreza zostanie odwołana?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-a">
+                        <p>W przypadku odwołania z przyczyn niezależnych od Organizatora (siła wyższa, decyzje administracyjne, awaria obiektu) zwracamy uczestnikom wpłacone kwoty pomniejszone o już poniesione, udokumentowane koszty bezzwrotne (np. zaliczki dla podwykonawców).</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!-- REGULAMIN -->
+    <section id="regulamin" class="section section-rules">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Regula<em>min</em></h2>
+                <p class="section-lede">Pełna treść regulaminu Wydarzenia. Akceptacja regulaminu jest warunkiem udziału.</p>
+            </div>
+
+            <div class="rules-doc">
+                <article class="rule">
+                    <header><span class="rule-num">§1</span><h3>Charakter Wydarzenia</h3></header>
+                    <ol>
+                        <li>Wydarzenie „Połowinki Studentów GUMed" (dalej: „Wydarzenie") jest prywatną imprezą zamkniętą, organizowaną przez komitet społeczny studentów (dalej: „Organizator").</li>
+                        <li>Organizator nie jest przedsiębiorcą ani profesjonalnym organizatorem turystyki/imprez masowych. Wydarzenie opiera się na zasadzie wzajemnego zaufania uczestników.</li>
+                        <li>Obiektem, w którym odbywa się Wydarzenie, zarządza podmiot zewnętrzny (dalej: „Operator Obiektu"). Organizator jedynie wynajmuje przestrzeń i koordynuje logistykę.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§2</span><h3>Odpowiedzialność Uczestnika</h3></header>
+                    <ol>
+                        <li>Uczestnik oświadcza, że jest świadomy postindustrialnego charakteru obiektu „Twoja Stocznia" (możliwe nierówności terenu, progi, konstrukcje stalowe) i zobowiązuje się do zachowania szczególnej ostrożności.</li>
+                        <li><strong>Pełna odpowiedzialność:</strong> Uczestnik bierze udział w Wydarzeniu na własne, wyłączne ryzyko. Organizator nie ponosi odpowiedzialności za jakiekolwiek szkody na osobie (wypadki, urazy, uszczerbek na zdrowiu) ani szkody w mieniu, jakie wystąpią na terenie obiektu.</li>
+                        <li><strong>Zwolnienie z odpowiedzialności:</strong> Akceptując regulamin, Uczestnik nieodwołalnie zrzeka się wszelkich roszczeń odszkodowawczych wobec osób fizycznych wchodzących w skład Komitetu Organizacyjnego.</li>
+                        <li>Uczestnik ponosi pełną odpowiedzialność cywilną i karną za swoje działania, w tym za zniszczenia infrastruktury hali, sprzętu nagłaśniającego lub dekoracji.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§3</span><h3>Bezpieczeństwo i Porządek</h3></header>
+                    <ol>
+                        <li>Za bezpieczeństwo techniczne hali, instalacji ppoż. oraz konstrukcji odpowiada wyłącznie Operator Obiektu.</li>
+                        <li>Nad porządkiem czuwa profesjonalna ochrona. Uczestnik ma obowiązek bezwzględnego stosowania się do poleceń ochrony i Organizatora.</li>
+                        <li><strong>Odmowa wstępu / Usunięcie:</strong> Ochrona lub Organizator mogą usunąć z terenu Wydarzenia każdą osobę, która:
+                            <ul>
+                                <li>zachowuje się agresywnie lub uciążliwie dla innych;</li>
+                                <li>niszczy mienie;</li>
+                                <li>stwarza zagrożenie dla siebie lub innych (np. próby wspinania się na elementy konstrukcyjne hali).</li>
+                            </ul>
+                        </li>
+                        <li>Osobie usuniętej nie przysługuje zwrot wpłaconych składek.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§4</span><h3>Alkohol i Catering</h3></header>
+                    <ol>
+                        <li>Na terenie Wydarzenia alkohol serwowany jest w systemie „Open Bar" lub przez barmanów Operatora Obiektu.</li>
+                        <li><strong>Wyłączenie winy:</strong> Organizator nie ponosi odpowiedzialności za jakość alkoholu, jedzenia oraz za skutki ich spożycia (w tym zatrucia, upojenie alkoholowe).</li>
+                        <li>Organizator i obsługa baru zastrzegają sobie prawo do odmowy podania alkoholu osobie nietrzeźwej.</li>
+                        <li>Zabrania się wnoszenia własnego alkoholu, szklanych butelek oraz środków odurzających.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§5</span><h3>Odpowiedzialność za Gości</h3></header>
+                    <ol>
+                        <li>Każdy student GUMed zapraszający osobę towarzyszącą (spoza uczelni) ponosi za nią pełną odpowiedzialność finansową i prawną.</li>
+                        <li>W przypadku wyrządzenia szkody przez osobę towarzyszącą, Organizator ma prawo obciążyć kosztami naprawy bezpośrednio studenta zapraszającego.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§6</span><h3>Szatnia i Mienie Prywatne</h3></header>
+                    <ol>
+                        <li>Szatnia może być płatna lub bezpłatna, zarządzana przez Operatora Obiektu lub osoby trzecie.</li>
+                        <li>Organizator nie odpowiada za rzeczy pozostawione w szatni, na stołach, w lożach ani w toaletach (telefony, portfele, odzież).</li>
+                        <li>Znalezione przedmioty należy przekazać ochronie lub Organizatorowi.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§7</span><h3>Wizerunek</h3></header>
+                    <ol>
+                        <li>Wejście na teren hali „Twoja Stocznia" jest równoznaczne z wyrażeniem zgody na nieodpłatne utrwalanie wizerunku przez oficjalnych fotografów Wydarzenia i jego publikację w internecie (Social Media).</li>
+                        <li>Uczestnik, który nie wyraża zgody na publikację zdjęcia, na którym jest wyraźnie widoczny, zobowiązany jest zgłosić to bezpośrednio fotografowi lub Organizatorowi w trakcie trwania imprezy.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§8</span><h3>Siła Wyższa i Odwołanie Imprezy</h3></header>
+                    <ol>
+                        <li>Organizator zastrzega sobie prawo do zmiany terminu lub odwołania Wydarzenia z przyczyn od niego niezależnych (np. decyzja administracyjna, awaria hali, żałoba narodowa, restrykcje sanitarne).</li>
+                        <li>W przypadku odwołania imprezy, Organizator zwraca uczestnikom wpłacone kwoty pomniejszone o już poniesione, udokumentowane koszty bezzwrotne (np. zaliczka dla klubu, której nie dało się odzyskać).</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§9</span><h3>Postanowienia końcowe</h3></header>
+                    <ol>
+                        <li>Nieznajomość regulaminu nie zwalnia z jego przestrzegania.</li>
+                        <li>Wszelkie kwestie sporne, nieujęte w niniejszym dokumencie, rozstrzyga ostatecznie Organizator w porozumieniu z Ochroną i Operatorem Obiektu.</li>
+                        <li>Prawem właściwym dla sporów jest prawo polskie, a sądem właściwym Sąd Rejonowy w Gdańsku.</li>
+                    </ol>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / ZAPISY -->
+    <section id="zapisy" class="section section-cta">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-meta">
+                    <span class="cta-num">04</span>
+                    <span class="cta-tag">Zapisy</span>
+                </div>
+                <h2 class="cta-title">Dołącz do <em>nocy</em>, którą zapamiętasz<br>na resztę studiów.</h2>
+                <p class="cta-lede">
+                    Po wypełnieniu formularza otrzymasz potwierdzenie.
+                </p>
+                <a href="https://forms.gle/XDMpX6QC5S7pXeQ99" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+    <span>Przejdź do formularza zapisów</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+</a> 
+                <p class="cta-fineprint">
+                    Wypełnienie formularza i opłacenie składki jest równoznaczne z akceptacją <a href="#regulamin">regulaminu</a> Wydarzenia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-mark big">P/26</div>
+                    <p class="footer-tagline">Połowinki Studentów<br>Gdańskiego Uniwersytetu Medycznego.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Wydarzenie</h4>
+                    <p>17.10.2026<br>Sobota</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Lokalizacja</h4>
+                    <p>Twoja Stocznia<br>ul. Elektryków 4<br>80-863 Gdańsk</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontakt</h4>
+                    <p>Komitet Organizacyjny<br>GUMed · Połowinki '26</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 · Komitet Organizacyjny Połowinek GUMed</span>
+                <span>Made with care · Gdańsk</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
