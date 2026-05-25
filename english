@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GUMed Students' Halfway Party 2026 — October 17th, Twoja Stocznia in Gdańsk. A night you will remember for the rest of your studies.">
+    <meta property="og:title" content="GUMed Halfway Party 2026">
+    <meta property="og:description" content="17.10.2026 · Twoja Stocznia · Gdańsk">
+    <title>GUMed Halfway Party 2026 — Twoja Stocznia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="ambient" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">
+                <span class="brand-mark">P/26</span>
+                <span class="brand-text">GUMed Halfway Party</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#wydarzenie">Event</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#regulamin">Regulations</a></li>
+                <li><a href="#zapisy" class="nav-cta">Sign up</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="top" class="hero">
+        <div class="hero-frame">
+
+            <div class="hero-meta hero-meta-tl reveal">
+                <span class="line"></span>
+            </div>
+            <div class="hero-meta hero-meta-tr reveal">
+                <span>Hall / Twoja Stocznia</span>
+                <span class="line"></span>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow reveal">Medical University of Gdańsk · 2026 Edition</p>
+
+                <h1 class="hero-title">
+                    <span class="reveal">Half<em>way</em></span>
+                    <span class="hero-year reveal">'26</span>
+                </h1>
+
+                <p class="hero-tagline reveal">
+                    Halfway there. A night worth remembering —<br>
+                    in a hall that is a legend itself.
+                </p>
+
+                <div class="countdown reveal" aria-label="Countdown to the event">
+                    <div class="countdown-label">
+                        <span class="line short"></span>
+                        <span>Time left</span>
+                        <span class="line short"></span>
+                    </div>
+                    <div class="countdown-grid">
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-days">000</span>
+                            <span class="cd-key">days</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-hours">00</span>
+                            <span class="cd-key">hrs</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-minutes">00</span>
+                            <span class="cd-key">mins</span>
+                        </div>
+                        <div class="cd-sep">:</div>
+                        <div class="cd-unit">
+                            <span class="cd-value" id="cd-seconds">00</span>
+                            <span class="cd-key">secs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-cta reveal">
+                    <a href="#zapisy" class="btn btn-primary">
+                        <span>Reserve a spot</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#wydarzenie" class="btn btn-ghost">
+                        <span>What, where, when</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-meta hero-meta-bl reveal">
+                <span class="line"></span>
+                <span>17 · 10 · 2026</span>
+            </div>
+            <div class="hero-meta hero-meta-br reveal">
+                <span>Saturday</span>
+                <span class="line"></span>
+            </div>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true">
+            <span>scroll</span>
+            <span class="scroll-line"></span>
+        </div>
+    </header>
+
+    <section id="wydarzenie" class="section section-details">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Event<em>.</em></h2>
+                <p class="section-lede">
+                    The Halfway Party is a night where we close the first half of our studies. No lab coats, no syllabuses —
+                    with a bar, a dance floor, and the crew we've survived every exam with.
+                </p>
+            </div>
+
+            <div class="details-grid">
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="5" width="18" height="16" rx="1"/>
+                                <path d="M3 9h18M8 3v4M16 3v4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Date</span>
+                    </div>
+                    <h3 class="detail-value">October 17, 2026</h3>
+                    <p class="detail-meta">Saturday</p>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 21s-7-7.5-7-12a7 7 0 0114 0c0 4.5-7 12-7 12z"/>
+                                <circle cx="12" cy="9" r="2.5"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Location</span>
+                    </div>
+                    <h3 class="detail-value">Twoja Stocznia</h3>
+                    <p class="detail-meta">4 Elektryków St. · 80-863 Gdańsk</p>
+                    <a href="https://maps.google.com/?q=Twoja+Stocznia+Elektryk%C3%B3w+4+Gda%C5%84sk" target="_blank" rel="noopener" class="detail-link">
+                        Open in Maps →
+                    </a>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M5 11V7a7 7 0 0114 0v4"/>
+                                <path d="M3 11h18l-1.5 9.5a1 1 0 01-1 .85h-13a1 1 0 01-1-.85L3 11z"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Format</span>
+                    </div>
+                    <h3 class="detail-value">Open bar · DJ · Photo</h3>
+                    <p class="detail-meta">Catering, drink station, photographer, surprises</p>
+                </article>
+
+                <article class="detail-card">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 11V3a3 3 0 00-6 0v8c0 1.66 1.34 3 3 3h0c1.66 0 3-1.34 3-3z"/>
+                                <path d="M6 14v7"/>
+                                <path d="M19 3v11c0 1.66-1.34 3-3 3h-1v4"/>
+                                <path d="M15 3h4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">Catering</span>
+                    </div>
+                    <h3 class="detail-value">Meals and snacks</h3>
+                    <p class="detail-meta">Hot meals, cold platters, and vegetarian options.</p>
+                    <a href="https://docs.google.com/document/d/1LWWIO0peQZLAxdT-zgbUD914sLw5LqYyNw_L5iSybtc/edit?usp=sharing" target="_blank" class="detail-link">
+                        View menu →
+                    </a>
+                </article>
+
+                <article class="detail-card detail-card-wide">
+                    <div class="detail-card-head">
+                        <span class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/>
+                            </svg>
+                        </span>
+                        <span class="detail-label">About the venue</span>
+                    </div>
+                    <h3 class="detail-value">A post-industrial hall<br>in the heart of the former Gdańsk Shipyard.</h3>
+                    <p class="detail-meta">
+                        Raw walls, steel structures, and history that will add character to the evening.
+                        The location is famous for its iconic acoustics and an atmosphere you won't find in any stiff hotel ballroom.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+   <section id="faq" class="section section-faq">
+    <div class="container">
+        <div class="section-head">
+            <span class="section-num">02</span>
+            <h2 class="section-title">FA<em>Q</em></h2>
+            <p class="section-lede">Short answers to the questions we get most often. The rest — in the regulations.</p>
+        </div>
+
+        <div class="faq-list">
+            
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Until when do I have to fill out the declaration and what do I need to provide?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>The declaration form must be completed by May 13th (Wednesday). We want you to make a final decision at this stage regarding whether you are attending the event with a plus one or opting for a single ticket.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What are the fees and what does the payment schedule look like?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>The total cost of participation will be approximately 500 PLN (we assume fluctuations of +/- 25 PLN). We will split the amount into 3 installments of similar size (up to approx. 170 PLN). The first payment deadline is May 15th, the second by the end of June.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Who should I pay the money to?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>To make it easier, fees will be collected in groups by the group representatives (starości), who will then pass them on to the appropriate members of the organizing committee.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What will happen to the leftover change and small surpluses?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>Unused small change (estimated 1.50 - 2.00 PLN per person) will not be refunded for logistical reasons. The entire pool will be donated to charity organizations.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Who can participate and does a non-university person pay the same?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>The event is for GUMed students (halfway through their studies) and their guests. The cost for a plus one is the same as for a student – the fee covers the exact same package of benefits.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">When do I need to provide the final details of my plus one?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>We will collect the first and last name of your plus one at the turn of July and August in a separate form.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What if there is a date collision with an Erasmus+ trip?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>If you are planning a trip, you must decide: a short return to Gdańsk for this weekend or resignation. We advise checking the host university's calendar, as the decision to pay is binding.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Where and when is the Halfway Party taking place?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>Saturday, October 17th, Twoja Stocznia (4 Elektryków St.). The date and location are now final and will not change.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What do I get in the ticket price?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>Entry, open bar, catering, music (DJ), photo coverage, and decorations.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Can I bring my own alcohol?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>No. All alcohol is served by the staff as part of the open bar. Bringing your own bottles is strictly prohibited.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What is the dress code?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>Elegant – a shirt or blazer is welcome. Note: the venue is post-industrial (uneven surfaces), so you wear heels at your own risk!</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Will there be a cloakroom and safe transport?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>A cloakroom will be available (may be paid). The venue is 10 mins from SKM Gdańsk Stocznia. We recommend public transport or apps like Uber/Bolt.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Will the photos be posted online?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>Yes, entry implies consent to the publication of the photo coverage on social media. If you do not want your image published, report it to the photographer on site.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">What if the event is canceled?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>We refund the amounts paid minus documented, non-refundable costs already incurred (e.g., advances for subcontractors).</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span class="faq-q">Will it be possible to dance with the Dean?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </summary>
+                <div class="faq-a">
+                    <p>;)</p>
+                </div>
+            </details>
+            
+        </div>
+    </div>
+</section>
+    <section id="regulamin" class="section section-rules">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Regula<em>tions</em></h2>
+                <p class="section-lede">The full text of the Event regulations. Acceptance of the regulations is a condition of participation.</p>
+            </div>
+
+            <div class="rules-doc">
+                <article class="rule">
+                    <header><span class="rule-num">§1</span><h3>Nature of the Event</h3></header>
+                    <ol>
+                        <li>The event "GUMed Students' Halfway Party" (hereinafter: "Event") is a private closed party, organized by the students' social committee (hereinafter: "Organizer").</li>
+                        <li>The Organizer is not an entrepreneur or a professional mass event/tourism organizer. The event is based on the mutual trust of the participants.</li>
+                        <li>The facility where the Event takes place is managed by an external entity (hereinafter: "Facility Operator"). The Organizer only rents the space and coordinates logistics.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§2</span><h3>Participant Liability</h3></header>
+                    <ol>
+                        <li>The Participant declares that they are aware of the post-industrial nature of the "Twoja Stocznia" facility (possible uneven terrain, thresholds, steel structures) and undertakes to exercise extreme caution.</li>
+                        <li><strong>Full liability:</strong> The Participant takes part in the Event at their own exclusive risk. The Organizer is not liable for any personal injury (accidents, injuries, health impairment) or property damage that occurs on the premises.</li>
+                        <li><strong>Release from liability:</strong> By accepting the regulations, the Participant irrevocably waives any claims for damages against natural persons comprising the Organizing Committee.</li>
+                        <li>The Participant bears full civil and criminal liability for their actions, including damage to the hall's infrastructure, sound equipment, or decorations.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§3</span><h3>Security and Order</h3></header>
+                    <ol>
+                        <li>The Facility Operator is exclusively responsible for the technical safety of the hall, fire installations, and structures.</li>
+                        <li>Professional security guards watch over order. The Participant is obliged to strictly follow the instructions of the security and the Organizer.</li>
+                        <li><strong>Refusal of entry / Removal:</strong> Security or the Organizer may remove from the Event premises any person who:
+                            <ul>
+                                <li>behaves aggressively or is a nuisance to others;</li>
+                                <li>destroys property;</li>
+                                <li>creates a threat to themselves or others (e.g., attempts to climb structural elements of the hall).</li>
+                            </ul>
+                        </li>
+                        <li>A removed person is not entitled to a refund of paid fees.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§4</span><h3>Alcohol and Catering</h3></header>
+                    <ol>
+                        <li>On the Event premises, alcohol is served in the "Open Bar" system or by the Facility Operator's bartenders.</li>
+                        <li><strong>Exclusion of fault:</strong> The Organizer is not responsible for the quality of alcohol, food, and the consequences of their consumption (including poisoning, alcohol intoxication).</li>
+                        <li>The Organizer and bar staff reserve the right to refuse serving alcohol to an intoxicated person.</li>
+                        <li>Bringing your own alcohol, glass bottles, and intoxicating substances is prohibited.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§5</span><h3>Liability for Guests</h3></header>
+                    <ol>
+                        <li>Every GUMed student inviting a plus one (from outside the university) bears full financial and legal responsibility for them.</li>
+                        <li>In the event of damage caused by a plus one, the Organizer has the right to charge the repair costs directly to the inviting student.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§6</span><h3>Cloakroom and Private Property</h3></header>
+                    <ol>
+                        <li>The cloakroom may be paid or free, managed by the Facility Operator or third parties.</li>
+                        <li>The Organizer is not responsible for items left in the cloakroom, on tables, in booths, or in restrooms (phones, wallets, clothing).</li>
+                        <li>Found items should be handed over to security or the Organizer.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§7</span><h3>Image</h3></header>
+                    <ol>
+                        <li>Entry to the "Twoja Stocznia" hall is tantamount to consenting to the free recording of one's image by the official Event photographers and its publication on the Internet (Social Media).</li>
+                        <li>A Participant who does not consent to the publication of a photo in which they are clearly visible is obliged to report this directly to the photographer or Organizer during the event.</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§8</span><h3>Force Majeure and Event Cancellation</h3></header>
+                    <ol>
+                        <li>The Organizer reserves the right to change the date or cancel the Event for reasons beyond their control (e.g., administrative decision, hall failure, national mourning, sanitary restrictions).</li>
+                        <li>In the event of cancellation, the Organizer will refund the amounts paid to participants minus documented, non-refundable costs already incurred (e.g., an unrecoverable advance for the club).</li>
+                    </ol>
+                </article>
+
+                <article class="rule">
+                    <header><span class="rule-num">§9</span><h3>Final Provisions</h3></header>
+                    <ol>
+                        <li>Ignorance of the regulations does not exempt one from complying with them.</li>
+                        <li>Any contentious issues not included in this document are ultimately resolved by the Organizer in consultation with Security and the Facility Operator.</li>
+                        <li>The governing law for disputes is Polish law, and the competent court is the District Court in Gdańsk.</li>
+                    </ol>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="zapisy" class="section section-cta">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-meta">
+                    <span class="cta-num">04</span>
+                    <span class="cta-tag">Sign up</span>
+                </div>
+                <h2 class="cta-title">Join the <em>night</em> you will remember<br>for the rest of your studies.</h2>
+                <p class="cta-lede">
+                    You will receive a confirmation after filling out the form.
+                </p>
+                <a href="https://forms.gle/XDMpX6QC5S7pXeQ99" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+    <span>Go to the registration form</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+</a> 
+                <p class="cta-fineprint">
+                    Filling out the form and paying the fee is tantamount to accepting the Event <a href="#regulamin">regulations</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-mark big">P/26</div>
+                    <p class="footer-tagline">GUMed Students'<br>Halfway Party.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Event</h4>
+                    <p>17.10.2026<br>Saturday</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <p>Twoja Stocznia<br>4 Elektryków St.<br>80-863 Gdańsk</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Organizing Committee<br>GUMed · Halfway Party '26</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 · GUMed Halfway Party Organizing Committee</span>
+                <span>Made with care · Gdańsk</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
